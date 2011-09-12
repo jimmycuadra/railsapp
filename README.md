@@ -22,8 +22,8 @@ Given that this repository lives in ~/Code, create a new application by running:
 rails new <app_name> --skip-bundle -m ~/Code/railsapp/template.rb
 ```
 
-To simplify this process, consider adding a Bash alias, like this:
+To simplify this process, consider adding a Bash function, like this:
 
 ```bash
-alias railsapp="rails new $1 --skip-bundle -m ~/Code/railsapp/template.rb"
+function railsapp { rails new $1 --skip-bundle -m ~/Code/railsapp/template.rb }
 ```
