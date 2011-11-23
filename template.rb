@@ -11,7 +11,7 @@ cruft = %w[
   README
 ]
 
-cruft.each { |path|   run "rm -rf #{path}" }
+cruft.each { |path| run "rm -rf #{path}" }
 
 # Copy files into app
 base_path = File.expand_path("../files", __FILE__) + "/"
@@ -34,9 +34,6 @@ run "bundle install"
 
 # Install RSpec
 generate "rspec:install"
-
-# Inititalize Guard/RSpec
-run "guard init && guard init rspec"
 
 # Initialize Git
 git :init
