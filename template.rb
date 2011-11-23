@@ -9,6 +9,7 @@ cruft = %w[
   Gemfile
   public/index.html
   README
+  test
 ]
 
 cruft.each { |path| run "rm -rf #{path}" }
@@ -31,9 +32,6 @@ run "cp .env .env.example"
 
 # Install bundle
 run "bundle install"
-
-# Install RSpec
-generate "rspec:install"
 
 # Initialize Git
 git :init
