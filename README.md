@@ -1,17 +1,19 @@
 # railsapp
 
-This is an application template for Rails that sets up projects with the following changes from the default:
+This is an application template for Rails that sets up projects with some useful changes from a stock install.
 
-* Adds .gitignore entries for SimpleCov coverage, database.yml, and .env.
-* Makes example files for ones that are .gitignored: database.yml and .env.
-* Removes useless files: public.html, rails.png, and the doc directory.
+## Features
+
+* Ignores SimpleCov coverage directory, database.yml, and .env from Git.
+* Makes example files for ones that are ignored from Git.
+* Removes useless files: public.html, rails.png, and the doc and test directories.
 * Changes the README to a blank Markdown file.
 * Changes application asset manifest files to SCSS and CoffeeScript.
 * Adds the HTML5 reset CSS with cleaned up whitespace and other small fixes.
 * Moves the `javascript_include_tag` in the application layout to the bottom of the body and always loads jQuery from Google.
-* Updates the Gemfile to use various gems including RSpec, Guard, Thin, and Foreman.
-* Installs RSpec.
-* Initializes a Guardfile and guard-rspec.
+* Uses RSpec instead of Test::Unit.
+* Uses Haml instead of ERB.
+* Sets up Foreman and Guard to run your development server, RSpec + Spork, and Jasmine all with one command for continuous testing.
 * Initializes a Git repository for the app.
 
 ## Usage
