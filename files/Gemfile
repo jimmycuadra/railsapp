@@ -11,7 +11,7 @@ gem 'jquery-rails'
 
 # Assets
 group :assets do
-  gem 'sass-rails'
+  gem 'less-rails-bootstrap'
   gem 'coffee-rails'
   gem 'uglifier'
 end
