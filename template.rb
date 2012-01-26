@@ -8,7 +8,7 @@ cruft = %w[
   doc
   Gemfile
   public/index.html
-  README
+  README.rdoc
   test
 ]
 
