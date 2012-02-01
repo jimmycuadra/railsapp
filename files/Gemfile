@@ -24,12 +24,12 @@ group :development, :test do
   gem 'sqlite3'
   gem 'foreman'
   gem 'guard'
+  gem 'rspec-rails'
   gem 'jasminerice'
 end
 
 group :test do
   gem 'spork'
-  gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'simplecov', require: false
