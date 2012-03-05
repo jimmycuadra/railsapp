@@ -9,7 +9,6 @@ cruft = %w[
   Gemfile
   public/index.html
   README.rdoc
-  test
 ]
 
 cruft.each { |path| run "rm -rf #{path}" }

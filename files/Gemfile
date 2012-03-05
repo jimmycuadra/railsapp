@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'rails', '3.2.0'
+gem 'rails', '3.2.2'
 
 # Server
 gem 'thin'
@@ -11,7 +11,8 @@ gem 'jquery-rails'
 
 # Assets
 group :assets do
-  gem 'less-rails-bootstrap'
+  gem 'sass-rails'
+  gem 'bootstrap-sass'
   gem 'coffee-rails'
   gem 'uglifier'
 end
