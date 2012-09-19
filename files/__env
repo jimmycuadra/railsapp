@@ -1,2 +1,2 @@
 # Environment variables for Foreman
-# e.g.: KEY=value
+RACK_ENV=development

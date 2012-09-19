@@ -30,7 +30,7 @@ run "cp config/database.yml config/database.yml.example"
 run "cp .env .env.example"
 
 # Install bundle
-run "bundle install"
+run "bundle --without production --binstubs .bundle/bin"
 
 # Initialize Git
 git :init
