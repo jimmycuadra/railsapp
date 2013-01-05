@@ -1,2 +1,3 @@
-# Environment variables for Foreman
 RACK_ENV=development
+PORT=3000
+SECRET_TOKEN=SecureRandom.hex(64)
