@@ -24,7 +24,7 @@ group :development do
 end
 
 group :test do
-  gem "rspec-rails", require: "rspec/rails"
+  gem "rspec-rails"
   gem "capybara", require: "capybara/rspec"
   gem "poltergeist", require: "capybara/poltergeist"
   gem "simplecov", require: false
